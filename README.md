@@ -14,3 +14,5 @@
 | 日期 | 題目 | 難度 |
 | :--- | :--- | :--- | :--- |
 | 2026-03-01 | [1. Two Sum] | Easy |
+| 2026-03-02 | [2. Add Two Numbers] | Medium |
+| 2026-04-02 | [3418. Maximum Amount of Money Robot Can Earn] | Medium |

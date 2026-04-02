@@ -15,4 +15,7 @@
 | :--- | :--- | :--- |
 | 2026-03-01 | [1. Two Sum] | Easy |
 | 2026-03-02 | [2. Add Two Numbers] | Medium |
+| 2026-03-02 | [1071. Greatest Common Divisor of Strings] | Easy |
+| 2026-03-02 | [1768. Merge Strings Alternately] | Easy |
+| 2026-03-02 | [1431. Kids With the Greatest Number of Candies] | Easy |
 | 2026-04-02 | [3418. Maximum Amount of Money Robot Can Earn] | Medium |

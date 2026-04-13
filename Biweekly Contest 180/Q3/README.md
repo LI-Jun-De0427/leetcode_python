@@ -39,7 +39,7 @@
 
 ---
 
-## 📚 新手筆記 (Key Takeaways)
+## 新手筆記 (Key Takeaways)
 
 ### 1. 質數篩法 (Sieve of Eratosthenes)
 如果你一格一格去判斷一個大數字是不是質數，速度會很慢。

@@ -1,0 +1,36 @@
+1848. Minimum Distance to the Target Element
+題目原文 (Problem Description)
+Given an integer array nums (0-indexed) and two integers target and start, find an index i such that nums[i] == target and abs(i - start) is minimized. Note that abs(x) is the absolute value of x.
+
+Return abs(i - start).
+
+It is guaranteed that target exists in nums.
+
+題目在說什麼？
+想像你在一排置物櫃前，你現在站在位置 start。這排置物櫃裡藏著你要找的寶物 target。
+有些寶物可能不只一個，散落在不同的櫃子裡。你的目標是：找到離你最近的那個寶物，並告訴大家你走了幾步。
+
+位置 (Index)：就是第幾個置物櫃（從 0 開始數）。
+
+距離 (Distance)：你現在的位置與寶物位置的差。因為往左走或往右走都是「距離」，所以我們用「絕對值」來確保數字是正的。
+
+解題想法 (Step-by-Step)
+對於剛接觸程式的朋友，我們可以把步驟拆解得很直觀：
+
+觀察每一格：我們從第 0 格開始，一格一格往後看（這叫「遍歷」）。
+
+確認寶物：每看到一個櫃子，就問：「這是我要找的 target 嗎？」
+
+計算步數：如果是，就計算「現在這格的位置」與「出發點 start」差了幾格。
+
+記下最小值：我們可能找到好幾個寶物，但我們只需要最短的那段路。所以每次找到寶物，我們就跟手上的「目前最短紀錄」比一下，如果這次更短，就更新紀錄。
+
+回傳結果：全部看完整排置物櫃後，報出最短的路徑。
+
+新手筆記 (Key Takeaways)
+為什麼要用 abs()？ 如果起點在 3，寶物在 1，1 - 3 = -2。但距離應該是 2 步，所以 abs(-2) 會幫我們轉成 2。
+
+為什麼要設 float('inf')？ 這在程式中代表「無限大」。當你要找「最小值」時，先設一個超級大的起始值，是常見的標準做法。
+
+遍歷 (Traversal)：
+這題最簡單的解法就是把陣列看一遍，時間複雜度是 O(n)，代表陣列多長，我們最壞就要看幾次。

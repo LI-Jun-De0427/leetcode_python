@@ -31,7 +31,7 @@
 ## 測試案例 (Testing Examples)
 
 ### 測試 1 (Example 1)
-![Example 1 Image](https://github.com/user-attachments/assets/5658e338-021f-4157-b451-55a5fab94712)
+<img src="https://github.com/user-attachments/assets/5658e338-021f-4157-b451-55a5fab94712" alt="Example 1 Graph" width="350px" />
 
 * **Input:** `matrix = [[0,1,1],[1,0,1],[1,1,0]]`
 * **Output:** `[2,2,2]`
@@ -43,7 +43,7 @@
 ---
 
 ### 測試 2 (Example 2)
-![Example 2 Image](https://github.com/user-attachments/assets/6efb91d5-ffe0-4546-9e19-b3884393206c)
+<img src="https://github.com/user-attachments/assets/6efb91d5-ffe0-4546-9e19-b3884393206c" alt="Example 2 Graph" width="350px" />
 
 * **Input:** `matrix = [[0,1,0],[1,0,0],[0,0,0]]`
 * **Output:** `[1,1,0]`
